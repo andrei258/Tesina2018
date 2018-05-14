@@ -15,6 +15,7 @@ if (isset ($_GET['logout'])){
     <title>Home page Balan 2017/2018</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -36,28 +37,30 @@ if (isset ($_GET['logout'])){
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="home.php">Home</a>
+                        <a class="nav-link" href="home.php"><i class="fas fa-home"></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="tpsi.php">TPSI</a>
+                        <a class="nav-link" href="tpsi.php"><i class="fas fa-code"></i> TPSI</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="informatica.php">Informatica</a>
+                        <a class="nav-link" href="informatica.php"><i class="fas fa-database"></i> Informatica</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sistemi.php">Sistemi e Reti</a>
+                        
+                        <a class="nav-link" href="sistemi.php"><i class="fas fa-unlock-alt"></i> Sistemi e Reti</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gestione.php">Gestione d'Impresa</a>
+                        <a class="nav-link" href="gestione.php"><i class="far fa-money-bill-alt"></i> Gestione d'Impresa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="inglese.php">Inglese</a>
+                        <a class="nav-link" href="inglese.php"><i class="fas fa-car"></i> Inglese</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="italiano.php">Italiano</a>
+                        <span class="glyphicons glyphicons-font"></span>
+                        <a class="nav-link" href="italiano.php"><i class="fas fa-font"></i> Italiano</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="storia.php">Storia</a>
+                        <a class="nav-link" href="storia.php"><i class="fas fa-globe"></i> Storia</a>
                     </li>
                     </ul>
                     <ul class="nav navbar-nav ml-auto">
@@ -142,7 +145,30 @@ if (isset ($_GET['logout'])){
         <div class="col-lg-12 col-md-12 col-sm-12">
             <a href="sistemi.php"><img class="imgpaypal" src="img/paypal-784404_640.png"></a>
         </div>
+  
+    
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h6>
+                Tesla Motors
+            </h6>
+        </div>
+    </div>   
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <h3>
+
+                Dopo aver <b>venduto</b> PayPal per <b>1,5 miliardi di dollari</b> ed aver diviso il ricavato, Elon investì
+                in <b>3 aziende</b>, una di queste fu <b>Tesla Motors</b>, nella quale investì <b>70 milioni</b> <br>
+                Le informazioni su questa azienda sono riportate facendo <b>click</b> sull'immagine a lato:
+            </h3>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <a href="inglese.php"><img src="img/Tesla.png"></a>
+        </div>
     </div>
+
+
             
 
     
@@ -155,4 +181,5 @@ if (isset ($_GET['logout'])){
 </footer>    
 
 </body>
+</html>
 </php>

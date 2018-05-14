@@ -79,6 +79,17 @@ body {
 
 }
 
+.uwubody{
+  background-color: #0056b3;
+
+}
+
+.uwuh6 {
+  font-size: 80px;
+  text-align: center;
+  color: yellow;
+}
+
 .formlogin{
   position: relative;
   z-index: 1;
@@ -105,33 +116,39 @@ h1 {
   font-family: 'Crete Round', serif;
   padding-top: 5%;
   font-size: 50px;
-  text-align: center;    
+  text-align: center;  
+  color: inherit;  
 }
 
 h2 {
   font-family: 'Crete Round', serif;
   font-size: 30px;
   text-align: center;
+  color: inherit;
 }
 
 h6 {
   font-size: 60px;  
   padding-top: 5%;
   text-align: center;
+  color: inherit;
 }
 
 h3 {
   text-align: left;
+  color: inherit;
 }
 
 h4{
   font-size: 60px;  
   text-align: center;
+  color: inherit;
 }
 
  h5 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  font-size: 80px;
+  text-align: center;
+  color: inherit;
 }
 
 p {
@@ -423,7 +440,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: inherit;
+  
 }
 
 .lead {
