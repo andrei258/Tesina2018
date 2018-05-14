@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registration page Tesina 2017/2018</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="loginregistrazione.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        function validaForm(){
+
+            if (document.RegisterForm.nomeutente.value == ""){
+                alert ('Il campo contenente il nome utente non pu&ograve essere vuoto');
+                return false;
+            }
+            
+            if (document.RegisterForm.nomeutente.str.length < 3 ){
+                alert ('Il nome utente deve essere pi&ugrave lungo di 3 caratteri');
+                return false;
+            }
+
+            if (document.RegisterForm.pass.str.length < 7){
+                alert ('La password deve essere composta da almeno 8 caratteri');
+            }
+
+            if (document.RegisterForm.pass.value != document.RegisterForm.pass2.value){
+                alert ('Le due password devono coincidere');
+            }
+
+        }
+    </script>   
+
+</head>
+<body>
+      
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h4>Benvenuto, qui potrai registrati per poter visualizzare la Tesina!</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="login-page">
+                <div class="form">
+                    <form name="RegisterForm" action="registrazione.php" onsubmit="return validaForm()" id="RegisterForm" method="POST">
+                        <input type="text" name="nomeutente" id="nomeutente" placeholder="Nome Utente" required/>
+                        <input type="password" name="pass" id="pass" placeholder="Password" required/>
+                        <input type="password" name="pass2" id="pass2" placeholder="Ripeti la Password" required/>
+                        <button>Registrati</button>
+                        <p class="message">Gi&agrave registrato? <a href="index.html">Entra da qui</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
