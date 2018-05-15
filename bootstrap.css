@@ -76,6 +76,9 @@ body {
 
 .imgpaypal{
   align-content: center;
+  max-width:350px;
+  max-height:400px;
+
 
 }
 
@@ -273,11 +276,11 @@ figure {
 }
 
 img {
-  padding-left: 18%;
+  padding-left: 5%;
   padding-top: 7%;
   display: block;
-  max-width:500px;
-  max-height:500px;
+  max-width:400px;
+  max-height:400px;
   width: auto;
   height: auto;
   

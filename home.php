@@ -4,8 +4,8 @@ session_start();
 if (isset ($_GET['logout'])){
     session_unregister('nomeutente');
 }
-//if(!isset($_SESSION[''])){ //if login in session is not set
-//    header("Location: login.html");
+//if(!isset($_SESSION[''])){  //if login in session is not set
+//    header("Location: index.html");
 
 ?>
 <html>
@@ -107,9 +107,10 @@ if (isset ($_GET['logout'])){
                   Elon Musk viene definito <b>visionario</b> e <b>futurista</b> grazie alle sue idee ed il suo elogio della tecnologia per 
                   spingere l'uomo verso nuove frontiere sia in senso logico che fisico (Ricordiamo che tra i suoi piani c'è quello di <b>colonizzare
                   Marte tra non molti anni</b>). <br>
-                  Questo suo amore e fiducia nella tecnologia rimembra un movimento che siamo stati in grado vedere in Italia
+                  Questa sua passione e fiducia nella tecnologia rimembra un movimento che siamo stati in grado vedere in Italia
                     agli inizi del XX secolo con il <a href="italiano.php"><b>Futurismo</b></a>. 
             </h3>
+        </div>    
     </div>
     <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -124,6 +125,7 @@ if (isset ($_GET['logout'])){
             <img class="imgzip" src="img/zip2.png">
         </div>  
     </div>
+
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
             <h6>PayPal</h6>
@@ -145,8 +147,7 @@ if (isset ($_GET['logout'])){
         <div class="col-lg-12 col-md-12 col-sm-12">
             <a href="sistemi.php"><img class="imgpaypal" src="img/paypal-784404_640.png"></a>
         </div>
-  
-    
+    </div>    
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
             <h6>
@@ -157,21 +158,15 @@ if (isset ($_GET['logout'])){
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
             <h3>
-
                 Dopo aver <b>venduto</b> PayPal per <b>1,5 miliardi di dollari</b> ed aver diviso il ricavato, Elon investì
                 in <b>3 aziende</b>, una di queste fu <b>Tesla Motors</b>, nella quale investì <b>70 milioni</b> <br>
                 Le informazioni su questa azienda sono riportate facendo <b>click</b> sull'immagine a lato:
             </h3>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
-            <a href="inglese.php"><img src="img/Tesla.png"></a>
-        </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <a href="inglese.php"><img src="img/Tesla.png"></a>
+            </div>
     </div>
-
-
-            
-
-    
 </div>
 
 <footer class="page-footer font-small blue pt-4 mt-4">
