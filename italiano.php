@@ -121,7 +121,74 @@ if (isset ($_GET['logout'])){
                 <br>
                 Per l'uomo questo fu un periodo di vittoria grazie al <b>trionfo sulla natura</b> da loro stessi dichiarato e maturò 
                 l'amore per la velocità, la tecnologia, la violenza. Le strade si riempirono di macchine, di luce artificiale, le fabbriche
-                diminuirono sempre di più i tempi di produzione. Era un periodo in cui l'uomo sentiva di aver conquistato la tecnolgia.
+                diminuirono sempre di più i tempi di produzione. Era un periodo in cui l'uomo sentiva di aver <b>conquistato la tecnolgia.</b>
             </h3>
         </div>
     </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h6>
+                Filippo Tommaso Marinetti (1876 - 1944)
+            </h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <img src="img/Filippo_Tommaso_Marinetti_1.jpg">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <br>
+            <br>
+            <br>
+            <h3>Tra le sue opere più famose abbiamo sicuramente <b>Zang Tumb Tumb</b>. <br>
+                Pubblicata nel <b>1914</b>, si ispira all'assedio di Adrianopoli durante la guerra bulgaro-turca. Di particolare abbiamo
+                le <b>parole in libertà, l'eliminazione degli articoli, avverbi e congiunzioni.</b> Oltre ai caratteri di grandezza diversa abbiamo anche 
+                la presenza di molte <b>onomatopee.</b> 
+                <br>
+                <br>
+                <br>
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h3><b>N.B. Prima dell'introduzione delle parole in libertà, l'esclusione della punteggiatura e l'amore per la guerra (Appoggiando anche il fascismo) avevamo anche altri due maggiori esponenti. </b></h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h6>
+                Aldo Palazzeschi (1885 - 1974)
+            </h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <img src="img/Aldo_Palazzeschi_2.jpg">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <br>
+            <br>
+            <h3> 
+                Tra le opere di maggior nota dobbiamo ricordare <b>Rapporto sulla vittoria futurista di Trieste </b> che fu sequestrato a Trento 
+                a causa degli accesi toni interventisti. <br>
+                Da questo brano scaturì <b>E lasciatemi divertire</b> dove il poeta si immagina di essere davanti ad una folla costernata e scandalizzata
+                dove crea l'immagine del <b>poeta clown</b> che ha perso il suo valore, la sua importanza culturale. <br>
+                Venne invitato a collaborare alla rivista <b>Poesia</b> e vi pubblicherà la raccolta di poesie <b>L'incendiario</b>.
+                <br>
+                In seguito aderirà alla rivista toscana <b>Lacerba</b> dove erano apparse alcune sue opere (<b>Manifesto del Controdolore</b>).
+                <br>
+                Al momento dello scoppio della guerra, si dichiarerà neutrale giudicando retorico l'acceso interventismo che veniva propagandato dal 
+                movimento futurista.
+            </h3>
+        </div>
+    </div>
+
+
+</div>
+
+<footer class="page-footer font-small blue pt-4 mt-4">
+        <div class="footer-copyright py-3 text-center">
+            © 2018 Copyright: Balan Andrei. 
+        </div>
+</footer>    
