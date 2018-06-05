@@ -157,6 +157,9 @@ if (isset ($_GET['logout'])){
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
             <h3>
+                <br>
+                <br>
+                <br>
                 Dopo aver <b>venduto</b> PayPal per <b>1,5 miliardi di dollari</b> ed aver diviso il ricavato, Elon investì
                 in <b>3 aziende</b>, una di queste fu <b>Tesla Motors</b>, nella quale investì <b>70 milioni</b> <br>
                 Le informazioni su questa azienda sono riportate facendo <b>click</b> sull'immagine:

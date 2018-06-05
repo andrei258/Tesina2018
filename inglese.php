@@ -79,10 +79,79 @@ if (isset ($_GET['logout'])){
         </nav>
                  
 <div class="container">
+
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <h1>Futurismo</h1>
+            <h1>Tesla's Electric Cars</h1>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <img class="mx-auto d-block img-fluid" src="img/tesla musk min.jpg">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <h3>
+                <br>
+                <br>
+                <br>
+                <br>
+                Elon Musk is the CEO of <b>Tesla Motors inc.</b> <br>
+                It was founded on July 1st 2001. Tesla is specialized in the making of <b>electric cars, energy storage (batteries) and solar panels.</b> 
+                It is mostly known for its cars powered by <b>lithium batteries.</b> 
+            </h3>
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
+            <h3>
+                Right now the Tesla models aren't affordable by everyone but one of the goals of the company is to allow everyone to buy at least one
+                and we're hoping that it will happen soon. 
+                <br>
+                The most famous product it's the <b>Model S</b> and was the world's best-selling electric car in 2015 and 2016. At the moment
+                it is also the most affordable car (around 70.000~80.000 €). 
+            </h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <img class="mx-auto d-block img-fluid" src="img/models.png">
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <h3> 
+                <br>
+                <br>
+                <br>
+                One of the most particular features is the autopilot but it isn't a full autopilot, it can be considered as
+                an assistant that helps the user to drive. Even if this is precisely defined in the contract when the user buys a Tesla model, 
+                some owners consider it as a full autopilot resulting in some accidents.
+            </h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h3>
+                As we previously said, Tesla also sells batteries. With just one full charge, five pilots drove alternatively for 1078 km at the speed of 
+                40 km/h. It was done with in Italy, near Salerno. 
+                <br>
+                These cars are rechargeable at special stations that in the years are being installed more and more in every country where Tesla's cars are sold.
+            </h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <img class="mx-auto d-block img-fluid" src="img/tesla-chargers-1580x549.jpg">
+        </div>
+    </div>
+</div>
+
+<footer class="page-footer font-small blue pt-4 mt-4">
+    <div class="footer-copyright py-3 text-center">
+        © 2018 Copyright: Balan Andrei. 
+    </div>
+</footer>    

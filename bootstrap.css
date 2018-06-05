@@ -74,10 +74,18 @@ body {
   outline: 0 !important;
 }
 
+.imgmusktesla{
+  align-content: center;
+  max-width:500px;
+  max-height:400px;
+  padding-left: 2%;
+}
+
 .imgpaypal{
   align-content: center;
   max-width:350px;
   max-height:400px;
+  padding-left: 2%;
 }
 
 .imgfuturisti {
