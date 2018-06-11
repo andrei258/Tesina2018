@@ -96,7 +96,7 @@ if (isset ($_GET['logout'])){
     </div>
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
-            <img class="imgfuturisti" src="img/Futuristi.jpg">
+            <img class="mx-auto d-block img-fluid" src="img/Futuristi.jpg">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
             <h3>
@@ -134,7 +134,7 @@ if (isset ($_GET['logout'])){
     </div>
     <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12">
-            <img src="img/Filippo_Tommaso_Marinetti_1.jpg">
+            <img class="mx-auto d-block img-fluid" src="img/Filippo_Tommaso_Marinetti_1.jpg">
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
             <br>
@@ -164,7 +164,7 @@ if (isset ($_GET['logout'])){
     </div>
     <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12">
-            <img src="img/Aldo_Palazzeschi_2.jpg">
+            <img class="mx-auto d-block img-fluid" src="img/Aldo_Palazzeschi_2.jpg">
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
             <br>

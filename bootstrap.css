@@ -74,6 +74,7 @@ body {
   outline: 0 !important;
 }
 
+
 .imgmusktesla{
   align-content: center;
   max-width:500px;
@@ -82,10 +83,10 @@ body {
 }
 
 .imgpaypal{
-  align-content: center;
+ 
   max-width:350px;
   max-height:400px;
-  padding-left: 2%;
+  
 }
 
 .imgfuturisti {
@@ -153,7 +154,7 @@ h3 {
   color: inherit;
 }
 
-h4{
+h4 {
   font-size: 60px;  
   text-align: center;
   color: inherit;

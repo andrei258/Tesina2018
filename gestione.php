@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 session_start();
 if (isset ($_GET['logout'])){
@@ -11,7 +10,7 @@ if (isset ($_GET['logout'])){
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home page Balan 2017/2018</title>
+    <title>Gestione d'Impresa Balan 2017/2018</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -35,7 +34,7 @@ if (isset ($_GET['logout'])){
 
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="home.php"><i class="fas fa-home"></i> Home</a>
                     </li>
                     <li class="nav-item">
@@ -45,10 +44,9 @@ if (isset ($_GET['logout'])){
                         <a class="nav-link" href="informatica.php"><i class="fas fa-database"></i> Informatica</a>
                     </li>
                     <li class="nav-item">
-                        
                         <a class="nav-link" href="sistemi.php"><i class="fas fa-unlock-alt"></i> Sistemi e Reti</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="gestione.php"><i class="far fa-money-bill-alt"></i> Gestione d'Impresa</a>
                     </li>
                     <li class="nav-item">
@@ -78,109 +76,110 @@ if (isset ($_GET['logout'])){
         </div>        
         </nav>
                  
-<div class="container">   
+<div class="container">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <h1>Esame di Stato, anno scolastico 2017/2018</h1>
-            <h2>Sito e tesina a cura di Andrei Balan</h2>
+            <h1>Le quattro P</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <h6>Tema principale: <br>
-                Elon Musk 
-            </h6>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <img class="mx-auto d-block img-fluid" src="img/eloncircle.png">
-        </div>
-    </div>   
-    <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <br>
-            <br>
-            <br>
-            <h3> <b>Elon Musk</b>, uno dei più grandi imprenditori dei nostri giorni, <br>
-                  all'attuale età di 46 anni è riuscito a rivoluzionare <b>vari campi</b>, anche molto differenti tra loro, come quello dell'<b>energia
-                  rinnovabile</b>, delle <b>automobili</b>, dell'<b>intelligenza artificiale</b> e addirittura dello <b>spazio</b>.  <br>
-                  Elon Musk viene definito <b>visionario</b> e <b>futurista</b> grazie alle sue idee ed il suo elogio della tecnologia per 
-                  spingere l'uomo verso nuove frontiere sia in senso logico che fisico (Ricordiamo che tra i suoi piani c'è quello di <b>colonizzare
-                  Marte tra non molti anni</b>). <br>
-                  Questa sua passione e fiducia nella tecnologia rimembra un movimento che siamo stati in grado vedere in Italia
-                    agli inizi del XX secolo con il <a href="italiano.php"><b>Futurismo</b></a>. 
+            <h3>
+                Per poter raggiungere più clienti possibili, Tesla ha effettuato una segmentazione del mercato per i suoi prodotti. 
+                <br>
+                Abbiamo infatti vari modelli con costi diversi tra loro per andare incontro alle esigenze del cliente e alle sue disponibilità economiche.
             </h3>
-        </div>    
+        </div>
     </div>
     <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12">
-            <br>
-            <br>
-            <br>
-                <h3>Nel 1995 fonda col fratello, Kimbal Musk,<b> Zip2</b>, una piattaforma che forniva alle testate giornalistiche delle mappe
-                    della città ed autorizzava dei software.
-                </h3>
+            <img class="mx-auto d-block img-fluid" src="img/product.png">
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">       
-            <img class="imgzip mx-auto d-block img-fluid" src="img/zip2.png">
-        </div>  
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+                <b>Prodotto (Product)</b>
+                <br>
+                Il prodotto è il bene (o servizio) che si decide di vendere in un mercato per soddisfare determinati bisogni
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <img class="mx-auto d-block img-fluid" src="img/price.png">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <h3>
+            <br>
+            <br>
+            <br>
+                <b>Price (Prezzo)</b>
+                <br>
+                Il prezzo è il corrispettivo in denaro che il cliente è disposto a pagare per il bene offerto dall'azienda.
+                <br>
+                Questo è il punto più importante perchè si sceglie come <b>scremare il mercato, su quale operare e la scelta dei vari prezzi.</b>
+                <br>
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <img class="mx-auto d-block img-fluid" src="img/place.png">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <h3>
+            <br>
+            <br>
+            <br>
+                <b>Place (Distribuzione)</b>
+                <br>
+                La distribuzione è l'insieme delle attività necessarie a far <b>giungere</b> un determinato prodotto al consumatore finale, 
+                con i vari passaggi intermedi. La distribuzione avviene tramite la <b>gestione dei canali di distribuzione</b> 
+                , dei magazzini, logistica delle merci e copertura del mercato.
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <img class="mx-auto d-block img-fluid" src="img/promotion.png">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <h3>
+            <br>
+            <br>
+            <br>
+                <b>Promotion (Promozione)</b>
+                <br>
+                La promozione è l'insieme di attività volte a promuovere, pubblicizzare e far conoscere al mercato un'azienda
+                 o un suo determinato prodotto o servizio. <br>
+- pubblicità <br>
+- sponsorizzazioni <br>
+- pubbliche relazioni <br>
+- product placement <br>
+- merchandising <br>
+- promozione delle vendite <br> 
+- vendita personale 
+        </h3>
+        </div>
     </div>
 
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-            <h6>PayPal</h6>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-            <h3>
-                Nel 1999, la divisione <b>Altavista</b> della <b>Compaq</b> acquista Zip2 per un'ingente somma di denaro. <br>
-                Il denaro ricavato, Musk lo userà per co-fondare <b>X.com</b> (Attuale <b>PayPal</b>)  una compagnia di servizi finanziari
-                online e di pagamenti via e-mail. <br>
-                Questa fondazione fu rivoluzionaria anche grazie alla sicurezza offerta dai certificati online
-                e dai protocolli creati e/o modificati appositamente per movimenti sicuri di denaro. <br>
-                Fare <b>click</b> sull'immagine sottostante per un maggiore approfondimento:
-            </h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-            <a href="sistemi.php"><img class="imgpaypal mx-auto d-block img-fluid" src="img/paypal-784404_640.png"></a>
-        </div>
-    </div>    
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-            <h6>
-                Tesla Motors
-            </h6>
-        </div>
-    </div>   
-    <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-            <h3>
-                <br>
-                <br>
-                <br>
-                Dopo aver <b>venduto</b> PayPal per <b>1,5 miliardi di dollari</b> ed aver diviso il ricavato, Elon investì
-                in <b>3 aziende</b>, una di queste fu <b>Tesla Motors</b>, nella quale investì <b>70 milioni</b> <br>
-                Le informazioni su questa azienda sono riportate facendo <b>click</b> sull'immagine:
-                <br>
-                <br>
-                <br>
-                Inoltre dobbiamo tener conto della <a href="gestione.php"><b>segmentazione del mercato</b></a> creata da Tesla per raggiungere vari tipi di clienti
-            </h3>
-        </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <a href="inglese.php"><img class="mx-auto d-block img-fluid" src="img/Tesla.png"></a>
-            </div>
-    </div>
 </div>
 
-<footer class="page-footer font-small blue pt-4 mt-4">
-    <div class="footer-copyright py-3 text-center">
-        © 2018 Copyright: Balan Andrei. 
-    </div>
-</footer>    
 
-</body>
-</html>
-</php>
+
+
+
+
+
+
+
+
+
+<br>
+                <b>Price (Prezzo)</b>
+                <br>
+                
