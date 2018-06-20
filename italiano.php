@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <?php
 session_start();
 if (isset ($_GET['logout'])){
@@ -13,21 +13,20 @@ if (isset ($_GET['logout'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Italiano Balan 2017/2018</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstraps.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+<style>img[alt="www.000webhost.com"]{display:none;}</style>
 </head>
 <body>
 
 
-    
+
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #2176FF;">
-                <a class="navbar-brand mb-0 h1">Tesina</a>
+                <a class="navbar-brand mb-0 h1">Elon Musk</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                         <span class="navbar-toggler-icon"></span>
@@ -45,7 +44,7 @@ if (isset ($_GET['logout'])){
                         <a class="nav-link" href="informatica.php"><i class="fas fa-database"></i> Informatica</a>
                     </li>
                     <li class="nav-item">
-                        
+
                         <a class="nav-link" href="sistemi.php"><i class="fas fa-unlock-alt"></i> Sistemi e Reti</a>
                     </li>
                     <li class="nav-item">
@@ -75,20 +74,20 @@ if (isset ($_GET['logout'])){
                     </div>
                     </li>
                 </ul>
-        </div>        
+        </div>
         </nav>
-                 
+
 <div class="container">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <h1>Futurismo</h1>
+            <h1><br>Futurismo</h1>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
             <h3>
                 Il <b>Futurismo</b> è stato un movimento <b>Italiano</b> dell'inizio del <b>XX secolo</b>. I futuristi esplorarono ogni forma
-                di espressione come la <b>pittura, la scultura, la letteratura</b> ed adirittura la <b>gastronomia.</b> 
+                di espressione come la <b>pittura, la scultura, la letteratura</b> ed adirittura la <b>gastronomia.</b>
                 <br>
                 La forma d'espressione più rilevante fu la <b>letteratura.</b> Il nome <b>"Futurismo"</b> lo si deve a <b>Filippo Tommaso Marinetti.</b>
             </h3>
@@ -96,7 +95,7 @@ if (isset ($_GET['logout'])){
     </div>
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
-            <img class="mx-auto d-block img-fluid" src="img/Futuristi.jpg">
+            <img class="mx-auto d-block img-fluid" src="img/manifesto.jpg">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
             <h3>
@@ -108,7 +107,7 @@ if (isset ($_GET['logout'])){
                 <br>
                 Per la prima volta i continenti si potevano sentire più <b>"vicini"</b>.
                 <br> <br>
-                (Nell'immagine abbiamo <b>Russolo, Carrà, Marinetti, Boccioni e Severini</b>)
+
             </h3>
         </div>
     </div>
@@ -117,78 +116,59 @@ if (isset ($_GET['logout'])){
             <h3>
                 Tutto ha inizio con il <b>manifesto futurista</b> pubblicato da <b>Filippo Tommaso Marinetti</b> sulla rivista <b>Le Figaro</b>
                 il 20 febbraio 1909 a Parigi. Nel manifesto vi erano presenti i principi della letteratura futurista dove abbiamo <b>l'esaltazione
-                del futuro</b> e delle sensazioni forti legate alla velocità ed alla guerra. 
+                del futuro</b> e delle sensazioni forti legate alla <b>velocità</b> ed alla <b>guerra.</b>
                 <br>
-                Per l'uomo questo fu un periodo di vittoria grazie al <b>trionfo sulla natura</b> da loro stessi dichiarato e maturò 
+                Per l'uomo questo fu un periodo di vittoria grazie al <b>trionfo sulla natura</b> da loro stessi dichiarato e maturò
                 l'amore per la velocità, la tecnologia, la violenza. Le strade si riempirono di macchine, di luce artificiale, le fabbriche
                 diminuirono sempre di più i tempi di produzione. Era un periodo in cui l'uomo sentiva di aver <b>conquistato la tecnolgia.</b>
+                <br>
+                Il manifesto futurista fu il primo di una lunga serie (Manifesto della scultura futurista, dei musicisti futuristi ecc.)
             </h3>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-            <h6>
-                Filippo Tommaso Marinetti (1876 - 1944)
-            </h6>
-        </div>
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <h1>
+          Manifesto tecnico della letteratura futurista (1912)
+        </h1>
+      </div>
     </div>
     <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <img class="mx-auto d-block img-fluid" src="img/Filippo_Tommaso_Marinetti_1.jpg">
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <br>
-            <br>
-            <br>
-            <h3>Tra le sue opere più famose abbiamo sicuramente <b>Zang Tumb Tumb</b>. <br>
-                Pubblicata nel <b>1914</b>, si ispira all'assedio di Adrianopoli durante la guerra bulgaro-turca. Di particolare abbiamo
-                le <b>parole in libertà, l'eliminazione degli articoli, avverbi e congiunzioni.</b> Oltre ai caratteri di grandezza diversa abbiamo anche 
-                la presenza di molte <b>onomatopee.</b> 
-                <br>
-                <br>
-                <br>
-            </h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-            <h3><b>N.B. Prima dell'introduzione delle parole in libertà, l'esclusione della punteggiatura e l'amore per la guerra (Appoggiando anche il fascismo) avevamo anche altri due maggiori esponenti. </b></h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-            <h6>
-                Aldo Palazzeschi (1885 - 1974)
-            </h6>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <img class="mx-auto d-block img-fluid" src="img/Aldo_Palazzeschi_2.jpg">
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <br>
-            <br>
-            <h3> 
-                Tra le opere di maggior nota dobbiamo ricordare <b>Rapporto sulla vittoria futurista di Trieste </b> che fu sequestrato a Trento 
-                a causa degli accesi toni interventisti. <br>
-                Da questo brano scaturì <b>E lasciatemi divertire</b> dove il poeta si immagina di essere davanti ad una folla costernata e scandalizzata
-                dove crea l'immagine del <b>poeta clown</b> che ha perso il suo valore, la sua importanza culturale. <br>
-                Venne invitato a collaborare alla rivista <b>Poesia</b> e vi pubblicherà la raccolta di poesie <b>L'incendiario</b>.
-                <br>
-                In seguito aderirà alla rivista toscana <b>Lacerba</b> dove erano apparse alcune sue opere (<b>Manifesto del Controdolore</b>).
-                <br>
-                Al momento dello scoppio della guerra, si dichiarerà neutrale giudicando retorico l'acceso interventismo che veniva propagandato dal 
-                movimento futurista.
-            </h3>
-        </div>
-    </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <h3>
+          <br>
+          <br>
+          Nel 1912 Marinetti pubblica un altro manifesto con le regole dei nuovi testi futuristi:
+          <br>
+          <br>
+          distruggere la <b>sintassi</b>;
+          <br>
 
+          usare i <b>verbi all'infinito</b>;
+          <br>
 
+          accostare parole per <b>analogia</b>;
+          <br>
+
+          abolire gli <b>avverbi</b>, definiti una fastidiosa unità di suono in una frase;
+          <br>
+
+          abolire la <b>punteggiatura</b>;
+          <br>
+
+          l'utilizzo del <b>verso libero e le parole in libertà</b>.
+        </h3>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <img class="mx-auto d-block img-fluid" src="img/manifestotecnico.jpg">
+      </div>
+    </div>
 </div>
 
+
 <footer class="page-footer font-small blue pt-4 mt-4">
-        <div class="footer-copyright py-3 text-center">
-            © 2018 Copyright: Balan Andrei. 
-        </div>
-</footer>    
+  <div class="footer-copyright text-center py-3">
+    © 2018 Copyright: Balan Ioan Andrei
+
+</div>
+</footer>
