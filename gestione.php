@@ -29,6 +29,11 @@ if (isset ($_GET['logout'])){
 .zoom:hover {
     transform: scale(1.5);
   }
+
+  @import url('https://fonts.googleapis.com/css?family=Francois+One');
+   h1{
+     font-family: 'Francois One', sans-serif;
+   }
 </style>
 </head>
 <body>
