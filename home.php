@@ -105,6 +105,7 @@ h6 {
             <img class="mx-auto d-block img-fluid" src="img/eloncerchio.png">
         </div>
     </div>
+    <hr>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
             <br>
@@ -118,13 +119,16 @@ h6 {
                   Marte tra non molti anni</b>). <br>
                   Questa sua passione e fiducia nella tecnologia rimembra un movimento che siamo stati in grado vedere in Italia
                   agli inizi del XX secolo con il <a href="italiano.php"><b>Futurismo</b></a>.
+                  <br>
+                  <br>
+                  <br>
             </h3>
         </div>
     </div>
-
+    <hr>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <h1>PayPal</h1>
+            <a href="sistemi.php"><img class=" mx-auto img-fluid d-block" src="img/paypal-scritta.png"></a>
         </div>
     </div>
     <div class="row">
@@ -143,19 +147,18 @@ h6 {
             </h3>
         </div>
         <div class="col-lg-5 col-md-12 col-sm-12">
-            <a href="sistemi.php"><img class="mx-auto d-block img-fluid" src="img/paypal.png"></a>
+            <a href="sistemi.php"><img class="mx-auto d-block img-fluid" src="img/paypal-logo.png"></a>
         </div>
     </div>
+    <hr>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <h1>
-                Tesla Motors
-            </h1>
+            <a href="gestione.php"><img class=" mx-auto img-fluid d-block" src="img/tesla-scritta.png"></a>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-5 col-md-6 col-sm-12">
-            <a href="inglese.php"><img class="mx-auto d-block img-fluid" src="img/Tesla.png"></a>
+            <a href="inglese.php"><img class="mx-auto d-block img-fluid" src="img/tesla-logo.png"></a>
         </div>
             <div class="col-lg-7 col-md-6 col-sm-12">
               <h3>
@@ -173,11 +176,10 @@ h6 {
 
             </div>
     </div>
+    <hr>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <h1>
-                OpenAI
-            </h1>
+            <a href="informatica.php"><img class=" mx-auto img-fluid d-block" src="img/openai-scritta.png"></a>
         </div>
     </div>
     <div class="row">
@@ -196,18 +198,19 @@ h6 {
           </h3>
         </div>
         <div class="col-lg-5 col-md-12 col-sm-12">
-          <a href="informatica.php"><img class="mx-auto d-block img-fluid" src="img/openai.png"></a>
+          <a href="informatica.php"><img class="mx-auto d-block img-fluid" src="img/openai-logo.png"></a>
 
         </div>
     </div>
+    <hr>
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12">
-        <h1>SpaceX</h1>
+        <a href="storia.php"><img class=" mx-auto img-fluid d-block" src="img/spacex-scritta.png"></a>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-5 col-md-12 col-sm-12">
-        <a href="storia.php"><img class="mx-auto d-block img-fluid" src="img/spacexcube.png"></a>
+        <a href="storia.php"><img class="mx-auto d-block img-fluid" src="img/spacex-logo.png"></a>
       </div>
       <div class="col-lg-7 col-md-12 col-sm-12">
         <h3>

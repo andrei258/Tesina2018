@@ -78,6 +78,10 @@ body {
   border-radius: 30px;
 }
 
+.imgscritta {
+    max-height: 150px;
+}
+
 .imgmusktesla{
   align-content: center;
   max-width:500px;

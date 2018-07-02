@@ -19,7 +19,17 @@ if (isset ($_GET['logout'])){
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style>
+.zoom {
 
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+  }
+</style>
 </head>
 <body>
 
@@ -79,7 +89,7 @@ if (isset ($_GET['logout'])){
 <div class="container">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <h1><br>Le quattro P</h1>
+            <h1><br>Segmentazione del mercato</h1>
         </div>
     </div>
     <div class="row">
@@ -120,41 +130,7 @@ if (isset ($_GET['logout'])){
             </h3>
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-3 col-md-12 col-sm-12">
-            <img class="mx-auto d-block img-fluid" src="img/place.png">
-        </div>
-        <div class="col-lg-9 col-md-12 col-sm-12">
-            <h3>
-
-<br>
-                <b>Place (Distribuzione)</b>
-                La distribuzione è l'insieme delle attività necessarie a far <b>giungere</b> un determinato prodotto al consumatore finale,
-                con i vari passaggi intermedi. La distribuzione avviene tramite la <b>gestione dei canali di distribuzione</b>
-                , dei magazzini, logistica delle merci e copertura del mercato.
-            </h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-3 col-md-12 col-sm-12">
-            <img class="mx-auto d-block img-fluid" src="img/promotion.png">
-        </div>
-        <div class="col-lg-9 col-md-12 col-sm-12">
-            <h3>
-                <b>Promotion (Promozione)</b>
-                <br>
-                La promozione è l'insieme di attività volte a promuovere, pubblicizzare e far conoscere al mercato un'azienda
-                 o un suo determinato prodotto o servizio. <br>
-- pubblicità <br>
-- sponsorizzazioni <br>
-- pubbliche relazioni <br>
-- product placement <br>
-- merchandising <br>
-- promozione delle vendite <br>
-- vendita personale
-        </h3>
-        </div>
-    </div>
+    <hr>
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12">
         <h1>
@@ -173,7 +149,7 @@ if (isset ($_GET['logout'])){
         </h3>
       </div>
       <div class="col-lg-8 col-md-12 col-sm-12">
-        <img class="mx-auto d-block img-fluid" src="img/swottesla.png">
+        <img class="zoom mx-auto d-block img-fluid" src="img/swottesla.png">
       </div>
     </div>
 </div>

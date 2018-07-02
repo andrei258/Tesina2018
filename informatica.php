@@ -108,11 +108,12 @@ if (isset ($_GET['logout'])){
         </h3>
       </div>
     </div>
+    <hr>
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12">
-        <h6>
+        <h1>
           Deep Learning
-        </h6>
+        </h1>
       </div>
     </div>
     <div class="row">
@@ -144,11 +145,12 @@ if (isset ($_GET['logout'])){
         </h3>
       </div>
     </div>
+    <hr>
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12">
-        <h6>
+        <h1>
           Le generazioni
-        </h6>
+        </h1>
       </div>
     </div>
     <div class="row">
@@ -169,11 +171,12 @@ if (isset ($_GET['logout'])){
         </h3>
       </div>
     </div>
+    <hr>
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12">
-        <h6>
+        <h1>
           Esempio
-        </h6>
+        </h1>
       </div>
     </div>
     <div class="row">

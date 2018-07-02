@@ -116,6 +116,7 @@ if (isset ($_GET['logout'])){
             <img class="mx-auto d-block img-fluid" src="img/1362-img1F.gif">
         </div>
     </div>
+    <hr>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
             <h3>
@@ -129,6 +130,16 @@ if (isset ($_GET['logout'])){
             <img class="mx-auto d-block img-fluid" src="img/sslscreen.png">
         </div>
     </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <img class="mx-auto d-block img-fluid" src="img/chrome_2018-07-02_15-48-11.png">
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <img class="mx-auto d-block img-fluid" src="img/certificato2.png">
+      </div>
+    </div>
+    <hr>
     <div class="row">
         <div class="col-lg-2 col-md-4 col-sm-6">
             <img class="mx-auto d-block img-fluid" src="img/pubblicazionissl.png">

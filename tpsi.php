@@ -16,7 +16,18 @@ if (isset ($_GET['logout'])){
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<style>img[alt="www.000webhost.com"]{display:none;}</style>
+<style>
+img[alt="www.000webhost.com"]{display:none;}
+.zoom {
+
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+  }
+</style>
 </head>
 <body>
 
@@ -97,6 +108,7 @@ if (isset ($_GET['logout'])){
       </h3>
     </div>
   </div>
+  <hr>
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12">
       <h1>
@@ -137,6 +149,7 @@ if (isset ($_GET['logout'])){
         da internet.
     </div>
   </div>
+  <hr>
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12">
       <h1>
@@ -187,6 +200,29 @@ if (isset ($_GET['logout'])){
       <img class="mx-auto d-block img-fluid" src="img/login.png">
     </div>
   </div>
+  <hr>
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <h1> Wireframe </h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <h3>
+        Per il design e la posizione degli elementi nel sito è stato scelto di adottare il design pattern della <b>springboard</b>, illustrata di seguito:
+      </h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <img class="zoom mx-auto img-fluid d-block" src="img/wireframe.png">
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+  </div>
+  <hr>
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12">
       <h3>
