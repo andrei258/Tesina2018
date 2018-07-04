@@ -1,13 +1,19 @@
 <?php
 session_start();
-if (isset ($_GET['logout'])){
-    session_unregister('nomeutente');
+if (!isset($_SESSION['nomeutente'])) {
+  header ('location: indexnotlogged.html');
+  exit();
 }
-//if(!isset($_SESSION[''])){  //if login in session is not set
-//    header("Location: index.html");
+if (isset ($_GET['logout'])){
+     session_destroy();
+     session_unset();
+     $_SESSION = [''];
+}
+
 ?>
 <html>
 <head>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Gestione d'Impresa Balan 2017/2018</title>
@@ -84,7 +90,7 @@ if (isset ($_GET['logout'])){
                     ?>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="index.html?action=logout"> Logout </a>
+                        <a class="dropdown-item" href="logout.php"> Logout </a>
                     </div>
                     </li>
                 </ul>

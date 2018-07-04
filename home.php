@@ -1,14 +1,19 @@
-<!DOCTYPE html>
 <?php
 session_start();
-if (isset ($_GET['logout'])){
-    session_unregister('nomeutente');
+if (!isset($_SESSION['nomeutente'])) {
+  header ('location: indexnotlogged.html');
+  exit();
 }
-//if(!isset($_SESSION[''])){  //if login in session is not set
-//    header("Location: index.html");
+if (isset ($_GET['logout'])){
+     session_destroy();
+     session_unset();
+     $_SESSION = [''];
+}
+
 ?>
 <html>
 <head>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Home page Balan 2017/2018</title>
@@ -25,6 +30,11 @@ if (isset ($_GET['logout'])){
 h6 {
   padding-top: -3%;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+ h1{
+   font-family: 'Francois One', sans-serif;
+ }
 </style>
 </head>
 <body>
@@ -76,7 +86,7 @@ h6 {
                     ?>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="index.html?action=logout"> Logout </a>
+                        <a class="dropdown-item" href="logout.php"> Logout </a>
                     </div>
                     </li>
                 </ul>
@@ -91,7 +101,7 @@ h6 {
               Esame di Stato
               <br>
                anno scolastico 2017/2018</h1>
-            <h2>Sito e tesina a cura di Andrei Balan</h2>
+            <h2>IIS G. Marconi - 5A INF Andrei Balan</h2>
         </div>
     </div>
     <div class="row">

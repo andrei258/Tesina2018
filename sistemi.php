@@ -1,13 +1,19 @@
 <?php
 session_start();
-if (isset ($_GET['logout'])){
-    session_unregister('nomeutente');
+if (!isset($_SESSION['nomeutente'])) {
+  header ('location: indexnotlogged.html');
+  exit();
 }
-//if(!isset($_SESSION[''])){  //if login in session is not set
-//    header("Location: index.html");
+if (isset ($_GET['logout'])){
+     session_destroy();
+     session_unset();
+     $_SESSION = [''];
+}
+
 ?>
 <html>
 <head>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sistemi e Reti Balan 2017/2018</title>
@@ -24,6 +30,16 @@ if (isset ($_GET['logout'])){
  h1{
    font-family: 'Francois One', sans-serif;
  }
+
+ .zoom {
+
+     transition: transform .2s; /* Animation */
+     margin: 0 auto;
+ }
+
+ .zoom:hover {
+     transform: scale(1.5);
+   }
 </style>
 </head>
 <body>
@@ -75,7 +91,7 @@ if (isset ($_GET['logout'])){
                     ?>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="index.html?action=logout"> Logout </a>
+                        <a class="dropdown-item" href="logout.php"> Logout </a>
                     </div>
                     </li>
                 </ul>
@@ -136,14 +152,18 @@ if (isset ($_GET['logout'])){
         </div>
     </div>
     <hr>
+    <br>
     <div class="row">
       <div class="col-lg-6 col-md-12 col-sm-12">
-        <img class="mx-auto d-block img-fluid" src="img/chrome_2018-07-02_15-48-11.png">
+        <img class="zoom mx-auto d-block img-fluid" src="img/chrome_2018-07-02_15-48-11.png">
       </div>
       <div class="col-lg-6 col-md-12 col-sm-12">
-        <img class="mx-auto d-block img-fluid" src="img/certificato2.png">
+        <img class="zoom mx-auto d-block img-fluid" src="img/certificato2.png">
       </div>
     </div>
+    <br>
+    <br>
+    <br>
     <hr>
     <div class="row">
         <div class="col-lg-2 col-md-4 col-sm-6">

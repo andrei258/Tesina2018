@@ -1,14 +1,19 @@
-<!DOCTYPE html>
 <?php
 session_start();
-if (isset ($_GET['logout'])){
-    session_unregister('nomeutente');
+if (!isset($_SESSION['nomeutente'])) {
+    header ('location: indexnotlogged.html');
+  exit();
 }
-//if(!isset($_SESSION[''])){  //if login in session is not set
-//    header("Location: index.html");
+if (isset ($_GET['logout'])){
+     session_destroy();
+     session_unset();
+     $_SESSION = [''];
+}
+
 ?>
 <html>
 <head>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Inglese Balan 2017/2018</title>
@@ -76,7 +81,7 @@ if (isset ($_GET['logout'])){
                     ?>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="index.html?action=logout"> Logout </a>
+                        <a class="dropdown-item" href="logout.php"> Logout </a>
                     </div>
                     </li>
                 </ul>
@@ -115,7 +120,7 @@ if (isset ($_GET['logout'])){
                 and we're hoping that it will happen soon.
                 <br>
                 The most famous product it's the <b>Model S</b> and was the world's best-selling electric car in 2015 and 2016. At the moment
-                it is also the most affordable car (around 70.000~80.000 €).
+                it is also the <b>most affordable car (around 70.000~80.000 €).</b>
             </h3>
         </div>
     </div>
@@ -130,9 +135,9 @@ if (isset ($_GET['logout'])){
                 <br>
                 <br>
                 <br>
-                One of the most particular features is the autopilot but it isn't a full autopilot, it can be considered as
-                an assistant that helps the user to drive. Even if this is precisely defined in the contract when the user buys a Tesla model,
-                some owners consider it as a full autopilot resulting in some accidents.
+                One of the most particular features is the <b>autopilot</b> but it isn't a full autopilot, it can be considered as
+                an <b>assistant</b> that helps the user to drive. Even if this is precisely defined in the contract when the user buys a Tesla model,
+                some owners consider it as a full autopilot resulting in some <b>accidents.</b>
             </h3>
         </div>
     </div>
@@ -140,11 +145,11 @@ if (isset ($_GET['logout'])){
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
             <h3>
-                As we previously said, Tesla also sells batteries. With just one full charge, five pilots drove alternatively for 1078 km at the speed of
-                40 km/h. It was done in Italy, near Salerno.
+                As we previously said, Tesla also <b>sells batteries</b>. With just one full charge, five pilots drove alternatively for <b>1078 km</b> at the speed of
+                40 km/h. It was done in <b>Italy, near Salerno.</b>
                 <br>
                 <br>
-                These cars are rechargeable at special stations that in the years are being installed more and more in every country where Tesla's cars are being sold.
+                These cars are rechargeable at <b>special stations</b> that in the years are being installed more and more in every country where Tesla's cars are being sold.
             </h3>
         </div>
     </div>

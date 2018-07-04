@@ -1,13 +1,19 @@
 <?php
 session_start();
-if (isset ($_GET['logout'])){
-    session_unregister('nomeutente');
+if (!isset($_SESSION['nomeutente'])) {
+  header ('location: indexnotlogged.html');
+  exit();
 }
-//if(!isset($_SESSION[''])){  //if login in session is not set
-//    header("Location: index.html");
+if (isset ($_GET['logout'])){
+     session_destroy();
+     session_unset();
+     $_SESSION = [''];
+}
+
 ?>
 <html>
 <head>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Informatica Balan 2017/2018</title>
@@ -26,6 +32,15 @@ img[alt="www.000webhost.com"]{display:none;}
    font-family: 'Francois One', sans-serif;
  }
 
+ .zoom {
+
+     transition: transform .2s; /* Animation */
+     margin: 0 auto;
+ }
+
+ .zoom:hover {
+     transform: scale(1.5);
+   }
 </style>
 </head>
 <body>
@@ -76,7 +91,7 @@ img[alt="www.000webhost.com"]{display:none;}
                     ?>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="index.html?action=logout"> Logout </a>
+                      <a class="dropdown-item" href="logout.php"> Logout </a>
                     </div>
                     </li>
                 </ul>
@@ -130,7 +145,7 @@ img[alt="www.000webhost.com"]{display:none;}
           <br>
           In una branca del Machine Learning abbiamo il <b>Deep Learning</b>, si basa sulle reti neurali, software in grado di emulare i neuroni.
           Alla base abbiamo una profondità delle rete neurale, ovvero una serie di <b>livelli.</b> <br> <br>
-          È la maccchina stessa che <b>decide</b> come arrivare al fine imposto attravero la decisione dei <b>classificatori</b>, scelti appunto, dalla macchina. <br><br>
+          È la macchina stessa che <b>decide</b> come arrivare al fine imposto attravero la decisione dei <b>classificatori</b>, scelti appunto, dalla macchina. <br><br>
           Nell'immagine di fianco abbiamo un esempio di una <b>rete neurale.</b>
         </h3>
       </div>
@@ -206,9 +221,11 @@ img[alt="www.000webhost.com"]{display:none;}
         </h3>
       </div>
     </div>
+    <br>
+    <br>
     <div class="row">
       <div class="col-lg-6 col-md-12 col-sm-12">
-        <img class="mx-auto d-block img-fluid" src="img/reteneuraletrex.png">
+        <img class="zoom mx-auto d-block img-fluid" src="img/reteneuraletrex.png">
       </div>
       <div class="col-lg-6 col-md-12 col-sm-12">
         <img class="mx-auto d-block img-fluid" src="img/trexinput.png">
@@ -217,6 +234,7 @@ img[alt="www.000webhost.com"]{display:none;}
     <div class="row">
       <div class="col-lg-6 col-md-12 col-sm-12">
         <h3>
+          <br>
           <br>
           <br>
           Dunque, in base ai valori letti in input, essi saranno processati nel <b>livello (o layer) nascosto</b> della rete neurale, e la macchina, in questo caso,
